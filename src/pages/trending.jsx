@@ -24,6 +24,7 @@ const Trending = () => {
   };
 
   useEffect(() => {
+    document.title = "NewsMonk - Made By Ehsan Saleem"
     fetchNews();
   }, []);
 
