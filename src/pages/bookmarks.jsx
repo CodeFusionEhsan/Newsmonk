@@ -7,6 +7,7 @@ const Bookmarks = () => {
     const [bookmarkedPosts, setBookmarkedPosts] = useState([]);
 
     useEffect(() => {
+        document.title = "NewsMonk - Made By Ehsan Saleem"
         setBookmarkedPosts(getBookmarks());
     }, []);
 
