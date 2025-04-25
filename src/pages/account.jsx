@@ -2,9 +2,13 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import { UserProfile } from '@clerk/clerk-react'
+import {useEffect} from "react";
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react'
 
 const Account = () => {
+    useEffect(() => {
+        document.title = "NewsMonk - Made By Ehsan Saleem
+    }, [])
     return(
         <div>
             <SignedIn>
