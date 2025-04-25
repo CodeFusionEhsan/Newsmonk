@@ -23,6 +23,8 @@ const NewsApp = () => {
             setNewsList(jsres2.top_news[0].news);
         };
 
+        document.title = "NewsMonk - Made By Ehsan Saleem"
+
         fetchNews();
     }, [apiKey]);
 
