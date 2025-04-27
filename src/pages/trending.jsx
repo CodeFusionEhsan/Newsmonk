@@ -10,7 +10,7 @@ const Trending = () => {
   const apiKey = 'd93baafc986f490c84636201385c2d2d';
 
   const fetchNews = async () => {
-    const allNewsResponse = await fetch('https://api.worldnewsapi.com/top-news?source-country=us&language=en&date=2024-05-29', {
+    const allNewsResponse = await fetch('https://api.worldnewsapi.com/top-news?source-country=in&language=en&date=2024-05-29', {
       method: "GET",
       headers: {
         'x-api-key': apiKey
