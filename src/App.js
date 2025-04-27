@@ -12,7 +12,7 @@ const NewsApp = () => {
     useEffect(() => {
         const fetchNews = async () => {
 
-            const allNewsResponse = await fetch('https://api.worldnewsapi.com/top-news?source-country=us&language=en&date=2024-05-29', {
+            const allNewsResponse = await fetch('https://api.worldnewsapi.com/top-news?source-country=in&language=en&date=2024-05-29', {
               method: "GET",
               headers: {
                 'x-api-key': apiKey
